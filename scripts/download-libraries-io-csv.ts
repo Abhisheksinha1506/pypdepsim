@@ -2,6 +2,8 @@
 import { existsSync, mkdirSync, statSync, createWriteStream, unlinkSync, createReadStream } from "fs";
 import { createGunzip } from "zlib";
 import { pipeline } from "stream/promises";
+import { Readable } from "stream";
+import { ReadableStream as WebReadableStream } from "stream/web";
 import path from "path";
 
 // Libraries.io data dump URLs
@@ -103,7 +105,10 @@ async function downloadFile(url: string, outputPath: string): Promise<void> {
   // Handle .gz files: pipe through gunzip
   if (url.endsWith(".gz")) {
     const gunzip = createGunzip();
-    await pipeline(response.body, gunzip, writeStream);
+    // Convert Web ReadableStream to Node.js Readable stream
+    // Cast to Web Streams API ReadableStream type
+    const nodeStream = Readable.fromWeb(response.body as WebReadableStream<Uint8Array>);
+    await pipeline(nodeStream, gunzip, writeStream);
   } else {
     // Non-compressed file
     const reader = response.body.getReader();

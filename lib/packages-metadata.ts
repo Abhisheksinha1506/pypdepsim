@@ -48,7 +48,7 @@ export function loadVersions(): Record<string, string> {
   } catch {
     versionsCache = {};
   }
-  return versionsCache;
+  return versionsCache || {};
 }
 
 /**
@@ -68,7 +68,7 @@ export function loadDepsCount(): Record<string, number> {
   } catch {
     depsCountCache = {};
   }
-  return depsCountCache;
+  return depsCountCache || {};
 }
 
 /**
@@ -88,7 +88,7 @@ export function loadRepositories(): Record<string, string | null> {
   } catch {
     repositoriesCache = {};
   }
-  return repositoriesCache;
+  return repositoriesCache || {};
 }
 
 /**
@@ -108,7 +108,7 @@ export function loadDownloads(): Record<string, { recent: number; mirrors: numbe
   } catch {
     downloadsCache = {};
   }
-  return downloadsCache;
+  return downloadsCache || {};
 }
 
 /**
@@ -128,7 +128,7 @@ export function loadDescriptions(): Record<string, string> {
   } catch {
     descriptionsCache = {};
   }
-  return descriptionsCache;
+  return descriptionsCache || {};
 }
 
 /**

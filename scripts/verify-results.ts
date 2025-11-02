@@ -75,7 +75,7 @@ async function verifyPackage(pkg: string): Promise<void> {
     });
     console.log(`  ✓ Found ${ourCooccur.length} co-occurring packages`);
     if (ourCooccur.length > 0) {
-      console.log(`  Top co-occurring: ${ourCooccur.slice(0, 3).map(function (c) { return `${c.name} (${(c.jaccard * 100).toFixed(2)}%, ${c.sharedDependents} shared)`; }).join(", ")}`);
+      console.log(`  Top co-occurring: ${ourCooccur.slice(0, 3).map(function (c) { return `${c.name} (${(c.jaccard * 100).toFixed(2)}%, ${(c as { sharedDependents?: number; sharedDeps?: string[] }).sharedDependents || (c.sharedDeps?.length || 0)} shared)`; }).join(", ")}`);
     }
   } catch (err) {
     console.log(`  ✗ Failed to compute co-occurrence: ${(err as Error).message}`);
@@ -102,7 +102,7 @@ async function verifyPackage(pkg: string): Promise<void> {
         }
         
         console.log(`    ${cooccurPkg.name}:`);
-        console.log(`      - Our score: ${(cooccurPkg.jaccard * 100).toFixed(2)}%, shared: ${cooccurPkg.sharedDependents}`);
+        console.log(`      - Our score: ${(cooccurPkg.jaccard * 100).toFixed(2)}%, shared: ${(cooccurPkg as { sharedDependents?: number }).sharedDependents || 0}`);
         console.log(`      - Actual shared deps: ${sharedDeps.length} (${sharedDeps.slice(0, 5).join(", ")})`);
         
         if (sharedDeps.length > 0) {

@@ -295,7 +295,7 @@ async function validatePackage(pkg: string): Promise<void> {
   if (ourDeps.length === 0 && ourMeta?.info?.requires_dist) {
     issues.push("No dependencies extracted (but PyPI has some)");
   }
-  if (ourReverseDeps.length === 0 && (libIOInfo?.dependents_count ?? 0) > 0) {
+  if (ourReverseDeps.length === 0 && libIOInfo && (libIOInfo.dependents_count ?? 0) > 0) {
     issues.push(`No reverse deps in cache (but Libraries.io shows ${libIOInfo.dependents_count})`);
   }
   if (libIOInfo && ourReverseDeps.length > 0) {
