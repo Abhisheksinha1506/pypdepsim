@@ -1,0 +1,41 @@
+{
+  "name": "pypdepsim",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "download-csv": "tsx scripts/download-libraries-io-csv.ts",
+    "download-all-packages": "tsx scripts/download-all-pypi-packages.ts",
+    "validate-packages": "tsx scripts/validate-packages.ts",
+    "check-reverse-deps-coverage": "tsx scripts/check-reverse-deps-coverage.ts",
+    "build-reverse-deps": "tsx scripts/build-reverse-deps-from-pypi.ts",
+    "test-libraries-io-api": "tsx scripts/test-libraries-io-api.ts",
+    "validate-package-data": "tsx scripts/validate-package-data.ts",
+    "download-packages-metadata": "tsx scripts/download-packages-metadata.ts",
+    "test-apis": "tsx scripts/test-all-apis.ts",
+    "weekly-update": "tsx scripts/weekly-data-update.ts"
+  },
+  "dependencies": {
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^5.16.0",
+    "lru-cache": "^11.2.2",
+    "next": "16.0.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.6",
+    "typescript": "^5"
+  }
+}
+

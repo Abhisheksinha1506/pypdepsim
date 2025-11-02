@@ -1,0 +1,1604 @@
+[
+  {
+    "pkg": "Pillow-SIMD",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "SPARQLWrapper",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 1,
+    "hasMeta": true
+  },
+  {
+    "pkg": "aiohttp",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 5,
+    "hasMeta": true
+  },
+  {
+    "pkg": "aiomysql",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 10,
+    "hasMeta": true
+  },
+  {
+    "pkg": "aioredis",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "aiosqlite",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "albumentations",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "alembic",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "alembic-postgresql-enum",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 11,
+    "hasMeta": true
+  },
+  {
+    "pkg": "alembic-utils",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "annoy",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "anyio",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "arrow",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "asyncpg",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "attrs",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "autopep8",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 2,
+    "hasMeta": true
+  },
+  {
+    "pkg": "babel",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "basemap",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "beanie",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "beautifulsoup4",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "black",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "bleach",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 1,
+    "hasMeta": true
+  },
+  {
+    "pkg": "blinker",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "bokeh",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "boto3",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 1,
+    "hasMeta": true
+  },
+  {
+    "pkg": "botocore",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 13,
+    "hasMeta": true
+  },
+  {
+    "pkg": "bottle",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "build",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "cartopy",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "cassandra-driver",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 9,
+    "hasMeta": true
+  },
+  {
+    "pkg": "catboost",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "celery",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 8,
+    "hasMeta": true
+  },
+  {
+    "pkg": "certifi",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "charset-normalizer",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "cherrypy",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 11,
+    "hasMeta": true
+  },
+  {
+    "pkg": "chromadb",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "click",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "colorama",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "comet-ml",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "coverage",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "cryptography",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "dash",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 3,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "dask",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "databases",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 1,
+    "hasMeta": true
+  },
+  {
+    "pkg": "dataset",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 4,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 5,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-allauth",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-cacheops",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-ckeditor",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 17,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-cors-headers",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 19,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-crispy-forms",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 17,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-debug-toolbar",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 18,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-elasticsearch-dsl",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 20,
+    "cooccurCount": 7,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-environ",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-extensions",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 17,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-filter",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 17,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-guardian",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-haystack",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-notifications-hq",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 19,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-oauth-toolkit",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-ratelimit",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 19,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-redis",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "django-storages",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "djangorestframework",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 17,
+    "hasMeta": true
+  },
+  {
+    "pkg": "djangorestframework-simplejwt",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 19,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "dlib",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "docutils",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "drf-spectacular",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "elasticsearch",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "elasticsearch-dsl",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "email-validator",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 4,
+    "hasMeta": true
+  },
+  {
+    "pkg": "face-recognition",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "faiss-cpu",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "faker",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 5,
+    "hasMeta": true
+  },
+  {
+    "pkg": "falcon",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "fastapi",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 7,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "fastapi-admin",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 7,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "fastapi-cache",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 7,
+    "cooccurCount": 7,
+    "hasMeta": true
+  },
+  {
+    "pkg": "fastapi-jwt-auth",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 7,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "fastapi-limiter",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 7,
+    "cooccurCount": 9,
+    "hasMeta": true
+  },
+  {
+    "pkg": "fastapi-mail",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 7,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "fastapi-redis",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 7,
+    "cooccurCount": 7,
+    "hasMeta": true
+  },
+  {
+    "pkg": "fastapi-users",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 7,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "feedparser",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "fiona",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flake8",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 2,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-admin",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-babel",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 16,
+    "cooccurCount": 1,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-caching",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 14,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-compress",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 16,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-cors",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 15,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-jwt-extended",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-limiter",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-login",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 15,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-mail",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 17,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-migrate",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-principal",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 13,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-restful",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 8,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-socketio",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-sqlalchemy",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "flask-wtf",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 15,
+    "cooccurCount": 17,
+    "hasMeta": true
+  },
+  {
+    "pkg": "folium",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "gdal",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "gensim",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "geopandas",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "geopy",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 3,
+    "hasMeta": true
+  },
+  {
+    "pkg": "gradio",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "grpcio",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "gunicorn",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "h5py",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "hiredis",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "hnswlib",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "html5lib",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 2,
+    "hasMeta": true
+  },
+  {
+    "pkg": "httpx",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "hyperopt",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "hypothesis",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "idna",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "igraph",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "imageio",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "imbalanced-learn",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "imutils",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "influxdb-client",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "ipykernel",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "ipython",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "ipywidgets",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "isort",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 3,
+    "hasMeta": true
+  },
+  {
+    "pkg": "itsdangerous",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "jinja2",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 4,
+    "hasMeta": true
+  },
+  {
+    "pkg": "jupyter",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 5,
+    "hasMeta": true
+  },
+  {
+    "pkg": "jupyter-dash",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 3,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "jupyterlab",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "keras",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "kombu",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 16,
+    "hasMeta": true
+  },
+  {
+    "pkg": "langchain",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 12,
+    "hasMeta": true
+  },
+  {
+    "pkg": "lightgbm",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "litestar",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 13,
+    "hasMeta": true
+  },
+  {
+    "pkg": "lxml",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 3,
+    "hasMeta": true
+  },
+  {
+    "pkg": "markdown",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 16,
+    "hasMeta": true
+  },
+  {
+    "pkg": "markupsafe",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "marshmallow",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "matplotlib",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "meilisearch",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 13,
+    "hasMeta": true
+  },
+  {
+    "pkg": "milvus",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "mlflow",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "mlxtend",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "mongoengine",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "motor",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "moviepy",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "msgpack",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "mypy",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "neptune-client",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "networkx",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "nltk",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "nmslib",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "notebook",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "numpy",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "oauthlib",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 15,
+    "hasMeta": true
+  },
+  {
+    "pkg": "odmantic",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "openai",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "opencv-contrib-python",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "opencv-python",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "openpyxl",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "optuna",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "optuna-dashboard",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "orjson",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "packaging",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pandas",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "panel",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "peewee",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pendulum",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 12,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pickledb",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 6,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pillow",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pip",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pipenv",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "playwright",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "plotly",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 19,
+    "hasMeta": true
+  },
+  {
+    "pkg": "plotly-dash",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 1,
+    "hasMeta": false,
+    "metaError": "HTTP 404 for https://pypi.org/pypi/plotly-dash/json"
+  },
+  {
+    "pkg": "poetry",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 12,
+    "hasMeta": true
+  },
+  {
+    "pkg": "polars",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 10,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pony",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "prometheus-client",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "protobuf",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "psycopg2-binary",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pyarrow",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 1,
+    "cooccurCount": 1,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pyasn1",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 0,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pydantic",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 3,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pydantic-email-validator",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 4,
+    "cooccurCount": 1,
+    "hasMeta": false,
+    "metaError": "HTTP 404 for https://pypi.org/pypi/pydantic-email-validator/json"
+  },
+  {
+    "pkg": "pydantic-extra-types",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 3,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pydantic-settings",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 3,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pylint",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pymongo",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pymysql",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 3,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pyopenssl",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pyproj",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 5,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pyramid",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 18,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pysolr",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 0,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pytest",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pytest-asyncio",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 20,
+    "hasMeta": true
+  },
+  {
+    "pkg": "pytest-cov",
+    "hasReverseDeps": false,
+    "reverseDepsCount": 0,
+    "similarCount": 2,
+    "cooccurCount": 20,
+    "hasMeta": true
+  }
+]
