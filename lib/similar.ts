@@ -1,6 +1,6 @@
 import { fetchReverseDependentsApprox, searchTopPackages, fetchPackageMeta, pickLatestDependencies } from "./pypi";
 import { jaccardSimilarity } from "./jaccard";
-import { loadReverseDepsCache, loadSimilarIndexCache, loadPopularPackages } from "./cache";
+import { loadReverseDepsCache, loadReverseDepsCacheAsync, loadSimilarIndexCache, loadPopularPackages } from "./cache";
 import { UI_FRAMEWORKS, isUiFramework } from "./seeds";
 import { getDependentsBitset } from "./bitsetCache";
 import { jaccardBitset } from "./jaccardBitset";
@@ -106,7 +106,8 @@ export async function getReverseDeps(pkg: string): Promise<Set<string>> {
   // Re-enable file-based cache check (30 min effective TTL via file cache)
   // Still fetch live if cache miss for freshness
   const normalized = normalizePackageName(pkg);
-  const cache = loadReverseDepsCache();
+  // Use async version to avoid blocking the event loop
+  const cache = await loadReverseDepsCacheAsync();
   const cached = cache[normalized] || cache[pkg.toLowerCase()];
   if (Array.isArray(cached) && cached.length > 0) {
     return new Set<string>(cached);
@@ -335,7 +336,8 @@ export async function computeSimilarOnDemand(
 
   // Load cache lazily only when needed for candidate evaluation (not during collection)
   // This avoids loading the entire cache (139k+ packages) when we only need popular packages
-  const cache = loadReverseDepsCache();
+  // Use async version to avoid blocking the event loop
+  const cache = await loadReverseDepsCacheAsync();
 
   // Bounded top-K structure (min-heap by jaccard)
   const heap: SimilarItem[] = [];
@@ -1048,11 +1050,12 @@ export async function computeSimilarPeerOnly(pkg: string, limit: number): Promis
   }
   const base = await getReverseDeps(normalized);
   if (base.size === 0) return [];
+  // Load cache once before the loop to avoid blocking in forEach
+  const cache = await loadReverseDepsCacheAsync();
   const results: SimilarItem[] = [];
   UI_FRAMEWORKS.forEach(function (cand) {
     const normalizedCand = normalizePackageName(cand);
     if (normalizedCand === normalized) return;
-    const cache = loadReverseDepsCache();
     const normalizedCandCache = normalizePackageName(cand);
     let depSet = new Set<string>(cache[normalizedCandCache] || cache[cand.toLowerCase()] || []);
     if (depSet.size === 0) {

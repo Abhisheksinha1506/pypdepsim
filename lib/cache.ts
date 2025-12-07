@@ -249,7 +249,7 @@ export async function loadReverseDepsCacheAsync(): Promise<ReverseDepsCache> {
       
       if (reverseDepsFiles.length > 0) {
         const combined: ReverseDepsCache = {};
-        const loadPromises = reverseDepsFiles.map(async function (file) {
+        const loadPromises = reverseDepsFiles.map(async function (file: string) {
           const splitFilePath = path.join(dataDir, file);
           try {
             const raw = await fs.readFile(splitFilePath, "utf-8");

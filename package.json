@@ -15,13 +15,16 @@
     "validate-package-data": "tsx scripts/validate-package-data.ts",
     "download-packages-metadata": "tsx scripts/download-packages-metadata.ts",
     "test-apis": "tsx scripts/test-all-apis.ts",
-    "weekly-update": "tsx scripts/weekly-data-update.ts"
+    "weekly-update": "tsx scripts/weekly-data-update.ts",
+    "test-functions": "tsx scripts/test-functions.ts",
+    "test-api-endpoints": "tsx scripts/test-api-endpoints.ts",
+    "audit": "tsx scripts/audit-codebase.ts"
   },
   "dependencies": {
     "graphql": "^16.11.0",
     "graphql-yoga": "^5.16.0",
     "lru-cache": "^11.2.2",
-    "next": "16.0.1",
+    "next": "16.0.7",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "zod": "^4.1.12"
@@ -32,7 +35,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.0.1",
+    "eslint-config-next": "16.0.7",
     "tailwindcss": "^4",
     "tsx": "^4.20.6",
     "typescript": "^5"

@@ -177,9 +177,11 @@ async function main(): Promise<void> {
     process.exit(1);
   }
   
-  const filename = csvUrl.split("/").pop() || "repository-dependencies.csv.gz";
+  // TypeScript doesn't understand that process.exit(1) never returns, so we assert non-null
+  const validCsvUrl: string = csvUrl;
+  const filename = validCsvUrl.split("/").pop() || "repository-dependencies.csv.gz";
   const compressedPath = path.join(dataDir, filename);
-  const decompressedPath = csvUrl.endsWith(".gz") 
+  const decompressedPath = validCsvUrl.endsWith(".gz") 
     ? path.join(dataDir, filename.replace(".gz", ""))
     : compressedPath;
   
@@ -199,8 +201,8 @@ async function main(): Promise<void> {
   
   try {
     // Download compressed file
-    if (csvUrl.endsWith(".gz")) {
-      await downloadFile(csvUrl, compressedPath);
+    if (validCsvUrl.endsWith(".gz")) {
+      await downloadFile(validCsvUrl, compressedPath);
       
       // Decompress
       console.log("Decompressing file...");
@@ -218,7 +220,7 @@ async function main(): Promise<void> {
         console.log("Removed compressed file to save space.");
       }
     } else {
-      await downloadFile(csvUrl, decompressedPath);
+      await downloadFile(validCsvUrl, decompressedPath);
     }
     
     const stats = statSync(decompressedPath);
